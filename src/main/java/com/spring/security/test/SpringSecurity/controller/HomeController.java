@@ -48,9 +48,14 @@ public class HomeController {
 		
 	}
 	
-	@GetMapping("/hello")
+	@GetMapping("/hellobranch")
 	public String hello() {
-		return "Hello World";
+		return "Hello World to the branch";
+	}
+	
+	@GetMapping("/hello")
+	public String hellobranch() {
+		return "Hello World to the branch";
 	}
 
 }
