@@ -23,7 +23,7 @@ public class HomeController {
 	
 	@GetMapping("/normal")
 	public ResponseEntity<String> adminUSer(){
-		return ResponseEntity.ok("Yes I am OK as I am a normal user");
+		return ResponseEntity.ok("Yes I am OK");
 	
 	}
 	
